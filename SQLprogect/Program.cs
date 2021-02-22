@@ -11,6 +11,7 @@ namespace SQLprogect
     {
         static void Main(string[] args)
         {
+
             string command = @"SELECT ProductSet.Name, CategorySet.Name
                                FROM ProductSet
                                INNER JOIN CategoryProduct ON ProductSet.Id = CategoryProduct.Product_Id 
